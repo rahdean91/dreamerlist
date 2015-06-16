@@ -17,7 +17,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'bootstrap-sass', '~> 3.3.4'
 gem "paperclip", "~> 4.2"
-
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 
 group :production do
 	gem 'pg'
