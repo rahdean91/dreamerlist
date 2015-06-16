@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get 'pages/explore'
 
+  get 'member' => "listings#member"
+
   root 'listings#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
