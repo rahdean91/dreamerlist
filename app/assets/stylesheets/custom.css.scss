@@ -1,0 +1,67 @@
+@import "bootstrap";
+
+body {
+	background-color: #f5f5f1;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-default {
+	background-color: #0099cc;
+	height: 85px;
+}
+
+.navbar-default .navbar-brand {
+	font-family: guardian-egyptt, georgia, serif;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 30px;
+
+}
+
+.navbar-default .navbar-nav > li > a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 30px 30px 30px 50px;
+}
+
+.center {
+	text-align: left;
+}
+
+.col-md-3:nth-child(4n+1) {
+	clear: left;
+}
+
+.col-md-9 {
+	h3 {font-size: 30px;
+		font-family: Overpass, Helvetica, sans-serif;}
+	h5 {font-size: 25px;}
+	p {font-size: 18px;}
+
+}
+
+.navbar-default .navbar-left {
+	padding: 14px 0 10px 50px;
+
+}
+
+.navbar-default .form-control {
+	width: 300px;
+	font-size: 12px;
+}
+
+
+h1 {
+	font-size: 35px;
+	font-family: Overpass, sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: Overpass, sans-serif;
+	font-weight: bold;
+}
