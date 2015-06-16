@@ -3,4 +3,10 @@ class Listing < ActiveRecord::Base
 						:storage => :dropbox,
     					:dropbox_credentials => Rails.root.join("config/dropbox.yml")
     					validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
+
+validates :name, presence: true
+
 end
+
+
+
